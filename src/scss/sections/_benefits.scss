@@ -1,0 +1,68 @@
+.benefits {
+  background: transparentize($gray, 0.7);
+  line-height: 1.6;
+
+  &__img {
+    margin-top: -10rem;
+  }
+  p {
+    margin-right: 2rem;
+  }
+
+  &__text {
+    width: 95%;
+  }
+
+  /*&__heading{
+        font-size: 2.2rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin: 8rem 0;
+    }*/
+
+  &__progres {
+    //margin-right: 6rem;
+    //margin-top: 17px;
+  }
+
+  .wrapper {
+    border: 1px solid $green;
+    height: 2.5rem;
+
+    margin: 1rem 1rem 1rem 0;
+  }
+  .progres {
+    background: $green;
+    height: 2.6rem;
+    //margin: 1rem;
+
+    span {
+      font-size: 1.1rem;
+      letter-spacing: 1px;
+      padding: 8px 9px;
+      text-transform: uppercase;
+      //margin: 6px;
+    }
+  }
+
+  .icon {
+    margin-right: 1rem;
+    color: $green;
+  }
+
+  .benefit {
+    border-bottom: 1px solid $gray;
+    margin-bottom: 5rem;
+  }
+
+  .benefit-img {
+    width: 16rem;
+    height: 17rem;
+    padding: 0rem 4rem 1rem 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .benefit-text {
+    margin-top: -2rem;
+  }
+}

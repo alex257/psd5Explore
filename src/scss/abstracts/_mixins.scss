@@ -1,0 +1,36 @@
+// 
+@mixin color($name, $value) {
+  .#{$name} {
+    color: $value;
+  }
+  .#{$name}-bg {
+    background-color: $value;
+  }
+}
+
+//Call function `color`:
+
+@include color('blue', $blue);
+@include color('gray', $gray);
+@include color('white', $white);
+@include color('pink', $pink);
+@include color('black', $black);
+@include color('green', $green);
+@include color('purple', $purple);
+
+
+//
+@mixin centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+//
+@mixin not-last-child($selector) {
+  & #{$selector}:not(:last-child) {
+    @content;
+  }
+}
+
