@@ -1,6 +1,7 @@
 .benefits {
   background: transparentize($gray, 0.7);
   line-height: 1.6;
+  padding-bottom: 15rem; 
 
   &__img {
     margin-top: -10rem;
@@ -52,7 +53,7 @@
 
   .benefit {
     border-bottom: 1px solid $gray;
-    margin-bottom: 5rem;
+    
   }
 
   .benefit-img {
