@@ -73,3 +73,23 @@ p {
     font-size: 10px;
   }
 }
+.subheading{
+  text-transform: uppercase;
+        color: $green;
+        letter-spacing: 1px;
+        font-weight: 400;
+}
+
+h2{
+  font-size: 2.5rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 8rem 0;
+}
+h4, h5{
+  text-transform: uppercase;
+}
+
+h4{
+  font-weight: 400;
+}
