@@ -1,0 +1,41 @@
+.blog {
+  margin-bottom: 4rem;
+  &__article {
+    margin-right: 8rem;
+    h4 {
+      font-size: 2rem;
+      font-weight: 500;
+      margin-top: 3.2rem;
+      margin-bottom: 0;
+      line-height: 1.5;
+      span {
+        color: $green;
+        margin-left: 0.7rem;
+      }
+    }
+
+    p {
+      font-size: 1.35rem;
+      line-height: 1.8;
+      letter-spacing: 1px;
+      margin-bottom: 3rem;
+    }
+    button {
+      color: $green;
+      margin-left: 1.7rem;
+      font-size: 1.2rem;
+      padding: 0.3em 0.9em;
+    }
+    .icon-wrapper {
+      background: $gray;
+      width: 2.4rem;
+      height: 2.4rem;
+    }
+
+    i {
+      //margin-top: -5rem;
+      font-size: 1.5rem;
+      color: $white;
+    }
+  }
+}

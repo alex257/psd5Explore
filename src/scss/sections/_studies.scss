@@ -1,71 +1,67 @@
-.studies{
-    line-height: 1.5;
+.studies {
+  line-height: 1.5;
 
-    &__heading{
-        margin: 8rem 0 4rem 0;
+  &__heading {
+    margin: 8rem 0 4rem 0;
+  }
+
+  p {
+    text-align: center;
+    padding-bottom: 8rem;
+  }
+
+  button {
+    color: $green;
+    background: $white;
+    border: 2px solid $green;
+    padding: 0.5em 1.3em;
+    font-size: 1.4rem;
+    margin-bottom: 6rem;
+    transition: background 0.3s ease-in-out;
+
+    &:hover {
+      background: $green;
+      color: $white;
     }
 
-    p{
-     text-align: center;
-     padding-bottom: 8rem;
-    }
+    &:first-of-type {
+      background: $green;
+      margin-right: 3rem;
 
-    button {
-        color: $green;
+      &:hover {
         background: $white;
-        border: 2px solid $green;
-        padding: 0.5em 1.3em;
-        font-size: 1.4rem;
-        margin-bottom: 6rem;
-        transition: background 0.3s ease-in-out;
-
-        &:hover {
-            background: $green;
-            color: $white;
-        }
-  
-        &:first-of-type {
-          background: $green;
-          margin-right: 3rem;
-  
-          &:hover {
-              background: $white;
-              color: $green;
-          }
-        }
-    a{
-        color: $white;
-
-        &:hover {
-            color: $green;
-        }
-
+        color: $green;
+      }
     }
+    a {
+      color: $white;
+
+      &:hover {
+        color: $green;
+      }
     }
+  }
 
-    &__icon{
-        background: $gray;
-        width: 28px;
-        height: 28px;
-        margin-bottom: 3rem;
-        margin-right: 6rem;
+  &__icon {
+    background: $gray;
+    width: 28px;
+    height: 28px;
+    margin-bottom: 3rem;
+    margin-right: 6rem;
 
-        .fas{
-           color: $green;  
-        }
-       
+    .fas {
+      color: $green;
     }
+  }
 
-   &__img{
-       img{
-        height: 80vh;
-        width: 100%;
-       }
-      
-   }
+  &__img {
+    img {
+      height: 80vh;
+      width: 100%;
+    }
+  }
 }
 
-
 //.fa-chevron-down{
-//    color: $green;  
+//    color: $green;
 //}/
