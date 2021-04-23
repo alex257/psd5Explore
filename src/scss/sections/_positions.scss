@@ -1,0 +1,46 @@
+.positions{
+    &__img-div{
+        background: url(../../img/jobs.jpg);
+        background-position: top right;
+        outline: 6px solid $white;
+        outline-offset: -5rem;
+    }
+
+    &__jobs-div{
+        margin-left: 6rem;
+    }
+
+     &__jobs{
+         margin-left: 6rem;
+     }
+
+     h2{
+         margin: 6rem 0 2rem 0;
+     }
+
+     li{
+         margin-bottom: 1rem;
+         font-size: 1.4rem;
+         list-style-type: circle;
+     }
+
+     &__dots{
+         margin: 5rem 0 3rem 0;
+         //background: red;
+         width: 80%;
+
+         .active{
+            background: $green;
+         }
+
+         div{
+             width: 14px;
+             height: 14px;
+             background: darken($gray, 50%);
+             margin: 6px;
+             border-radius: 50%;
+         }
+
+         
+     }
+}

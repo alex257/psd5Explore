@@ -1,0 +1,49 @@
+.clients{
+    text-align: center;
+    margin-bottom: 5rem;
+
+    &__client{
+       margin-right: 4rem;
+
+       p{
+        font-size: 1.3rem;
+        line-height: 1.6;
+    }
+
+       h5{
+           margin: 1.4rem 0 .9rem 0;
+       }
+
+       cite{
+           font-size: 1.4rem;
+           margin-bottom: 1rem;
+       }
+
+       i{
+           color: $green;
+           font-size: 2.6rem;
+           margin-bottom: 6rem;
+       }
+    }
+
+    &__face{
+        width: 11rem;
+        height: 11rem;
+        border-radius: 50%;
+    }
+
+    .chevron{
+        position: absolute;
+        width: 1.8rem;
+        height: 1.8rem;
+        background: $green;  
+    }
+    .chevron-left{
+right: 85%;
+    }
+
+    .chevron-right{
+        left: 85%;
+            }
+        
+}
